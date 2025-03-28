@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>System Alert</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+      alert("⚠️ CRITICAL ERROR: Your iPhone is infected! Tap OK for system diagnostics.");
+      setTimeout(() => {
+        window.location.href = "https://support.apple.com"; // Redirects to Apple Support after 3 sec
+      }, 3000);
+    </script>
+  </head>
+  <body>
+    <div class="warning-box">
+      <h1>SECURITY WARNING!</h1>
+      <p>System error detected. Immediate action required.</p>
+    </div>
+  </body>
+</html>
