@@ -1,0 +1,23 @@
+body {
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fpremium-vector%2Fpoop-emoji-illustration_158891111.htm&psig=AOvVaw1OuUIHTvptvdV8-qu6Yo9U&ust=1743290767354000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNj75rH2rYwDFQAAAAAdAAAAABAE');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: red;
+  font-size: 36px;
+}
+
+.warning-box {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border: 2px solid red;
+  width: 80%;
+  max-width: 500px;
+  margin: 50px auto;
+  box-shadow: 0px 0px 10px red;
+}
